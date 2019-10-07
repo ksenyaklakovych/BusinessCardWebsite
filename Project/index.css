@@ -1,3 +1,6 @@
+body{
+   background-color:#FCDEA0;
+}
 .dropbtn {
   /* background-color: #3498DB;
   color: white; */
@@ -38,18 +41,12 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #A9A0FC}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-
-/* Position the image container (needed to position the left and right arrows) */
 
 .container img{
   width:65%;
-  float:left;
+  /* float:left; */
 }
 
 /* Hide the images by default */
@@ -65,26 +62,24 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  right: 450px;
+  top: 480px;
+  /* top: 40%; */
   width: auto;
   padding: 16px;
-  margin-top: 220px;
+  /* margin-top: 220px; */
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
   user-select: none;
   -webkit-user-select: none;
-}
+  background-color: rgba(0, 0, 0, 0.8);
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #A9A0FC;
 }
 
 .active{
@@ -94,10 +89,44 @@
   float:right;
 }
 .bluep {
-  color:#A9A0FC;
+  color:#A0FCDF;
 }
-/* .sometext{
-  float:right;
-} */
+.sometext{
+  /* float:right; */
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  z-index: 1;
+}
+.sometext h1{
+  font-size: 40pt;
+   font-family: Arial Black;
+}
+.sometext p{
+  font-size: 20pt;
+}
 .main{
+}
+.button {
+  border: none;
+    padding: 4px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  /* -webkit-transition-duration: 0.4s; /* Safari */
+  /* transition-duration: 0.4s; */
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #FCDEA0;
+  color: black;
+  border: 2px solid #A9A0FC;
+}
+
+.button1:hover {
+  background-color: #A9A0FC;
+  color: white;
 }
