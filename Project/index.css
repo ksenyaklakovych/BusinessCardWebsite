@@ -107,9 +107,12 @@ body{
 }
 .main{
 }
-.button {
-  border: none;
-    padding: 4px 15px;
+
+.button1 {
+  background-color: #FCDEA0;
+  color: black;
+  border: 2px solid #A9A0FC;
+  padding: 4px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -118,12 +121,6 @@ body{
   /* -webkit-transition-duration: 0.4s; /* Safari */
   /* transition-duration: 0.4s; */
   cursor: pointer;
-}
-
-.button1 {
-  background-color: #FCDEA0;
-  color: black;
-  border: 2px solid #A9A0FC;
 }
 
 .button1:hover {
